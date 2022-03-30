@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.096" height="46.148" viewBox="0 0 41.096 46.148">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#305679"/>
+      <stop offset="1" stop-color="#032d54"/>
+    </linearGradient>
+    <filter id="Icon_material-notifications" x="0" y="0" width="41.096" height="46.148" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_material-notifications)">
+    <path id="Icon_material-notifications-2" data-name="Icon material-notifications" d="M17.548,31.9a2.9,2.9,0,0,0,2.887-2.887H14.661A2.886,2.886,0,0,0,17.548,31.9Zm8.661-8.661V16.02c0-4.432-2.367-8.141-6.5-9.123V5.915a2.165,2.165,0,0,0-4.33,0V6.9c-4.143.982-6.5,4.677-6.5,9.123v7.217L6,26.124v1.443H29.1V26.124Z" transform="translate(3 2.25)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
